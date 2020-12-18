@@ -1,7 +1,3 @@
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.models import Sequential
-
 import numpy as np
 import cv2
 from keras.emotion_models import Sequential
@@ -11,8 +7,8 @@ from keras.optimizers import Adam
 from keras.layers import MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 
-train_dir = 'data/train'
-val_dir = 'data/test'
+train_dir = 'FER2013/train'
+val_dir = 'FER2013/test'
 train_datagen = ImageDataGenerator(rescale=1./255)
 val_datagen = ImageDataGenerator(rescale=1./255)
 
@@ -70,7 +66,7 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
-    bounding_box = cv2.CascadeClassifier('/home/shivam/.local/lib/python3.6/site-packages/cv2/data/haarcascade_frontalface_default.xml')
+    bounding_box = cv2.CascadeClassifier('/home/esra/.local/lib/python3.8/site-packages/cv2/data/haarcascade_frontalface_default.xml')
     gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2gray_frame)
     num_faces = bounding_box.detectMultiScale(gray_frame,scaleFactor=1.3, minNeighbors=5)
 
