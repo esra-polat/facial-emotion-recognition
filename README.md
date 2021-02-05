@@ -30,11 +30,11 @@ pandas
 
 The validation accuracy of the model is found at 64.9%.
 
-![alt text](summary/accRes.jpg?raw=true)
-![alt text](summary/acc.jpg?raw=true)
-![alt text](summary/conf.jpg?raw=true)
-![alt text](summary/test2.jpg?raw=true)
-![alt text](summary/test3.jpg?raw=true)
+![alt text](summary/accRes.jpg)
+![alt text](summary/acc.jpg)
+![alt text](summary/conf.jpg)
+![alt text](summary/test2.jpg)
+![alt text](summary/test3.jpg)
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
