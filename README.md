@@ -12,7 +12,8 @@
 ### Dataset
 
 Used the [‘fer2013’](https://www.kaggle.com/deadskull7/fer2013) dataset to train the model. The dataset consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centred and occupies about the same amount of space in each image.
-![picture](summary/acc.png)
+
+![picture](summary/fer.png)
 
 
 ### Prerequisites
@@ -29,11 +30,11 @@ pandas
 
 The validation accuracy of the model is found at 64.9%.
 
-![alt text](https://github.com/esra-polat/facial-emotion-recognition.git/summary/accRes.png?raw=true)
-![alt text](https://github.com/esra-polat/facial-emotion-recognition.git/summary/acc.png?raw=true)
-![alt text](https://github.com/esra-polat/facial-emotion-recognition.git/summary/conf.png?raw=true)
-![alt text](https://github.com/esra-polat/facial-emotion-recognition.git/summary/test2.png?raw=true)
-![alt text](https://github.com/esra-polat/facial-emotion-recognition.git/summary/test3.png?raw=true)
+![alt text](summary/accRes.png?raw=true)
+![alt text](summary/acc.png?raw=true)
+![alt text](summary/conf.png?raw=true)
+![alt text](summary/test2.png?raw=true)
+![alt text](summary/test3.png?raw=true)
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
