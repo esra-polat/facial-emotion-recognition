@@ -13,7 +13,7 @@
 
 Used the [‘fer2013’](https://www.kaggle.com/deadskull7/fer2013) dataset to train the model. The dataset consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centred and occupies about the same amount of space in each image.
 
-![picture](summary/jpg.png?raw=true)
+![picture](summary/fer.jpg?raw=true)
 
 
 ### Prerequisites
