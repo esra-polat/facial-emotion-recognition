@@ -31,8 +31,10 @@ pandas
 The validation accuracy of the model is found at 64.9%.
 
 ![alt text](summary/accRes.jpg)
+
 ![alt text](summary/acc.jpg)
 ![alt text](summary/conf.jpg)
+
 ![alt text](summary/test2.jpg)
 ![alt text](summary/test3.jpg)
 
