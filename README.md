@@ -4,7 +4,6 @@
   - Convolutional Neural Network (CNN) 
   - Google Colab
 
-> This is my machine learning course project.  
 > This program is recognizing the emotion from a picture and then generate an emoji.
 > It is simple facial emotion recognition with deep learning techniques for beginner level.
 > It is implemented with Python on the Google Colab platform.
